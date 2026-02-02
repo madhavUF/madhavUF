@@ -41,6 +41,11 @@ Personal AI assistant that handles phone calls and manages calendar scheduling a
 - **Tech:** Python, FastAPI, Google Calendar API, Vapi, Claude
 - **Highlights:** Natural voice conversations, intelligent scheduling, automated summaries
 
+#### 🧠 [Personal RAG Assistant](https://github.com/madhavUF/ml-from-scratch)
+Locally-running AI assistant using RAG to query personal data across files, Google Calendar, and email. Built to solve the problem of scattered personal information.
+- **Tech:** Python, ChromaDB, all-MiniLM-L6-v2, Anthropic Claude API
+- **Highlights:** Document chunking for context limits, semantic search, privacy-first local processing
+
 ### 🎓 Background
 
 **MBA:** UC Berkeley, Haas School of Business (2023)
@@ -91,4 +96,4 @@ JIRA • Confluence • Tableau • Power BI • A/B Testing • SQL • Git •
 
 **Philosophy:** I believe great Product Managers maintain technical credibility. These projects reflect my hands-on approach to understanding the systems I lead.
 
-*Last updated: January 2026*
+*Last updated: February 2026*
