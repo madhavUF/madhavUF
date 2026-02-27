@@ -26,6 +26,19 @@ Previously shipped **$70M+ gaming products** at JamCity and built **warehouse ma
 
 ### 🛠️ Featured Projects
 
+#### 🧠 [Personal AI Agent — Self-Hosted Claude Assistant](https://github.com/madhavUF/ml-from-scratch)
+A fully self-hosted personal AI assistant that runs on your Mac. Connects to your documents, Google Calendar, and Gmail through a proper Claude tool_use agent loop. Accessible via a web dashboard and a Telegram bot — your data never leaves your machine.
+
+Built as a privacy-first alternative to Claude.ai and generic Claude bots: personal documents stay local, OAuth credentials are brokered by a separate credential server (AgentGate), and conversation history persists across restarts via SQLite.
+
+- **Tech:** Python, FastAPI, Claude Sonnet (tool_use), ChromaDB RAG, SQLite, python-telegram-bot, Node.js (AgentGate)
+- **Highlights:**
+  - Claude agent loop with 7 tools — searches docs, reads/sends email, checks calendar, saves notes
+  - Telegram bot with persistent 30-day memory (SQLite-backed sessions)
+  - AgentGate credential broker — AI never handles OAuth tokens directly; full audit log
+  - macOS menubar app with auto-restart, launchd daemon for login auto-start
+  - Drop-in privacy upgrade vs Claude.ai: all data on-device, self-hosted, open source
+
 #### 🤖 [Autonomous Navigation Robot with YOLO Detection](https://github.com/madhavUF/ros2-picarx)
 ROS2-based autonomous robot with real-time object detection using YOLOv8 on Raspberry Pi. Demonstrates edge AI optimization and mobile robotics integration.
 - **Tech:** Python, ROS2, YOLOv8, Docker
@@ -40,11 +53,6 @@ AI-powered mobile app for real-time car repair guidance using computer vision. R
 Personal AI assistant that handles phone calls and manages calendar scheduling automatically. Enterprise automation demonstrating workflow integration.
 - **Tech:** Python, FastAPI, Google Calendar API, Vapi, Claude
 - **Highlights:** Natural voice conversations, intelligent scheduling, automated summaries
-
-#### 🧠 [Personal RAG Assistant](https://github.com/madhavUF/ml-from-scratch)
-Locally-running AI assistant using RAG to query personal data across files, Google Calendar, and email. Built to solve the problem of scattered personal information.
-- **Tech:** Python, ChromaDB, all-MiniLM-L6-v2, Anthropic Claude API
-- **Highlights:** Document chunking for context limits, semantic search, privacy-first local processing
 
 ### 🎓 Background
 
